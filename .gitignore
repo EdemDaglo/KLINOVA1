@@ -1,0 +1,11 @@
+.gitignore
+# Flutter build files
+build/
+# Dart tool
+.dart_tool/
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
