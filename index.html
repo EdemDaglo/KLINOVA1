@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Clock - Multiple Time Zones</title>
+</head>
+<body>
+    <div class="clock-container">
+        <h1>🌍 Digital Clock</h1>
+        <p class="subtitle">Current Time in Different Time Zones</p>
+        
+        <div id="clocks" class="clocks-grid">
+            <div class="clock" id="utc">
+                <div class="timezone-name">UTC</div>
+                <div class="timezone-offset">(UTC+0)</div>
+                <div class="time">Loading...</div>
+                <div class="date">Loading...</div>
+            </div>
+            
+            <div class="clock" id="est">
+                <div class="timezone-name">Eastern Time</div>
+                <div class="timezone-offset">(UTC-5)</div>
+                <div class="time">Loading...</div>
+                <div class="date">Loading...</div>
+            </div>
+            
+            <div class="clock" id="cst">
+                <div class="timezone-name">Central Time</div>
+                <div class="timezone-offset">(UTC-6)</div>
+                <div class="time">Loading...</div>
+                <div class="date">Loading...</div>
+            </div>
+            
+            <div class="clock" id="pst">
+                <div class="timezone-name">Pacific Time</div>
+                <div class="timezone-offset">(UTC-8)</div>
+                <div class="time">Loading...</div>
+                <div class="date">Loading...</div>
+            </div>
+            
+            <div class="clock" id="cet">
+                <div class="timezone-name">Central European</div>
+                <div class="timezone-offset">(UTC+1)</div>
+                <div class="time">Loading...</div>
+                <div class="date">Loading...</div>
+            </div>
+            
+            <div class="clock" id="ist">
+                <div class="timezone-name">Indian Standard</div>
+                <div class="timezone-offset">(UTC+5:30)</div>
+                <div class="time">Loading...</div>
+                <div class="date">Loading...</div>
+            </div>
+            
+            <div class="clock" id="jst">
+                <div class="timezone-name">Japan Standard</div>
+                <div class="timezone-offset">(UTC+9)</div>
+                <div class="time">Loading...</div>
+                <div class="date">Loading...</div>
+            </div>
+            
+            <div class="clock" id="aest">
+                <div class="timezone-name">Australia Eastern</div>
+                <div class="timezone-offset">(UTC+10)</div>
+                <div class="time">Loading...</div>
+                <div class="date">Loading...</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
